@@ -1,4 +1,0 @@
-posaccountant@203.161.46.54
-tptXLGd@0A
-alias upserver = "cd ~/Posa && git pull && cp -rf ~/Posa/Server/* ~/public_html"
-ssh posaccountant@203.161.46.54

@@ -1,0 +1,525 @@
+$primary-color: #0d6efd;
+$primary-color2: rgb(36, 119, 242) d;
+$secondary-color: #2c3248;
+$secondary-color2: #3a415a;
+$tertiary-color: #e91e63;
+$tertiary-color2: #ff3d7e;
+
+.signupheader {
+  background-color: $primary-color;
+}
+.btn-secondary {
+  background-color: $secondary-color;
+  border: 1px solid $secondary-color;
+}
+
+.btn-secondary:hover {
+  background-color: $secondary-color2;
+  border: 1px solid $secondary-color;
+}
+
+.btn-primary {
+  background-color: $primary-color;
+  border: 1px solid $primary-color;
+}
+
+.btn-primary:hover {
+  background-color: $primary-color2;
+  border: 1px solid $primary-color;
+}
+
+.btn-tertiary {
+  background-color: $tertiary-color;
+  border: 1px solid $tertiary-color;
+  color: white;
+}
+
+.btn-tertiary:hover {
+  background-color: $tertiary-color2;
+  border: 1px solid $tertiary-color;
+  color: white;
+}
+
+.cover {
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+}
+
+.signupLeft {
+  min-height: 100vh;
+  overflow: hidden;
+}
+.registerLogo {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  padding: 25px 0px;
+}
+
+.registerForm input {
+  background-color: #fff;
+}
+
+.form-control {
+  margin-bottom: 0px !important;
+  margin-top: 8px !important;
+}
+.AdminForm {
+  background-color: #4a4a4a;
+  min-height: 50vh;
+  padding: 40px 10px;
+  margin: 15px;
+  border-radius: 10px;
+}
+
+.AdminForm input {
+  background-color: #fff;
+}
+
+.signSlide > div {
+  background-size: cover;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.react-slideshow-container .nav {
+  display: none;
+}
+.signSlideCover {
+  background-color: #ffffff;
+}
+.show {
+  display: block;
+  background-color: #1858438f;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600;700&family=Libre+Baskerville:wght@300;400;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,700;1,700&family=Dancing+Script:wght@400;700&family=Nanum+Myeongjo:wght@400;700;800&display=swap");
+
+.loader {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  display: none;
+}
+
+.loader.visible {
+  display: block;
+}
+
+.loader.hidden {
+  display: none;
+}
+
+.tag {
+  background-color: #968145;
+  padding: 0px 20px;
+  border-radius: 50px;
+}
+.form-control {
+  padding: 10px 15px;
+  background-color: #fefefe00;
+  border: 2px solid #adadad;
+  margin-bottom: 35px;
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.form-control:focus {
+  border-color: $primary-color;
+  background-color: #fefefe00;
+}
+
+.invesmentform .form-control {
+  color: white !important;
+}
+
+select option {
+  background-color: #fff !important;
+  color: #333;
+}
+.btn {
+  padding: 12px;
+}
+.form-control:focus {
+  border-color: $primary-color;
+  box-shadow: 0 0 0 0.25rem #fa24a03d;
+}
+.fontFam0 {
+  font-family: "Dancing Script", cursive;
+}
+
+.fontFam1 {
+  font-family: "Quicksand";
+}
+
+.fontFam2 {
+  font-family: "Nanum Myeongjo", serif;
+}
+.fontFam3 {
+  font-family: "Cormorant Garamond", serif;
+}
+.fontFam4 {
+  font-family: "Libre Baskerville", sans-serif;
+}
+
+.SideMenu {
+  width: 100vw;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 3000 !important;
+}
+
+.SideMenu .fadeCover {
+  background-color: #000000b0;
+  height: 100%;
+  z-index: 1;
+}
+.indicators {
+  position: relative;
+  width: 100%;
+  margin-top: -40px !important;
+  z-index: 100;
+}
+
+.react-slideshow-container + ul.indicators li {
+  width: 12px !important;
+  height: 12px !important;
+  margin: 6px;
+}
+
+.react-slideshow-container + ul.indicators .each-slideshow-indicator:before {
+  width: 13px !important;
+  height: 13px !important;
+  background: $tertiary-color !important;
+  box-shadow: 0px 0px 10px #ddd !important;
+}
+
+.SideMenu .SideContent {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: #fffefeed;
+  height: 100%;
+  width: 70%;
+  background-image: url("../public/logo.png");
+}
+.SideContent > div {
+  background-color: #ffffffde;
+  padding-left: 10px;
+  padding-right: 25px;
+  height: 100%;
+}
+.menu {
+  display: block;
+}
+.menu-item {
+  display: block;
+}
+.text-primary-color {
+  color: $primary-color !important;
+}
+.nav-link {
+  display: inline-block !important;
+  height: 30px;
+  font-size: 14px;
+}
+.nav-link.active,
+.nav-link:hover,
+.nav-link:focus {
+  background-color: #475874 !important;
+  color: #bed7dd;
+  border: none !important;
+}
+
+.navbar-toggler {
+  color: $primary-color;
+}
+.navbar-toggler span {
+  font-size: 42px;
+}
+
+.css-1d3z3hw-MuiOutlinedInput-notchedOutline {
+  border: 2px solid #999 !important;
+}
+.css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root {
+  color: #474746 !important;
+  font-weight: 700;
+}
+.css-md26zr-MuiInputBase-root-MuiOutlinedInput-root.Mui-focused
+  .MuiOutlinedInput-notchedOutline {
+  border: 2px solid $primary-color !important;
+}
+.css-1jy569b-MuiFormLabel-root-MuiInputLabel-root.Mui-focused {
+  color: $primary-color !important;
+}
+.imgDiv {
+  width: 200px;
+  height: 200px;
+  background-color: #eee;
+  display: inline-block;
+  border: 2px solid #ddd;
+}
+
+.css-1ckq8tj-MuiButtonBase-root-MuiButton-root {
+  padding: 10px 20px !important;
+  background-color: $primary-color !important;
+}
+.css-1qtu9q6-MuiButtonBase-root-MuiButton-root {
+  background-color: $primary-color !important;
+}
+.imgDiv:hover {
+  cursor: pointer;
+  background-color: #ddd;
+}
+
+.SideContent > div::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  filter: blur(15px); /* Adjust the blur radius as needed */
+  z-index: -1; /* Place the blurred element behind the text */
+}
+
+.react-slideshow-container .nav svg {
+  width: 15px;
+  height: 15px;
+  filter: brightness(0) invert(1);
+}
+
+.react-slideshow-container .nav svg:hover {
+  filter: brightness(0) invert(0) !important;
+}
+
+.react-slideshow-container .nav {
+  display: block;
+  width: 20px;
+  height: 150px;
+
+  background: #372c0265;
+  box-shadow: 0px 0px 5px #ddd;
+}
+
+.react-slideshow-container .default-nav:first-of-type {
+  border-radius: 0px 100px 100px 0px;
+}
+
+.react-slideshow-container .default-nav:last-of-type {
+  border-radius: 100px 0px 0px 100px;
+}
+.each-slide-child {
+  padding-bottom: 50px;
+  width: 100%;
+  text-align: center;
+}
+
+.each-slide-child .Slidetop {
+  display: block;
+  width: 100%;
+  font-family: "Dancing Script", cursive;
+  padding: 0px 15px;
+  color: #17bbe4;
+}
+
+.each-slide-child .Slidetitle {
+  display: block;
+  width: 100%;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 50px;
+  color: white;
+  font-weight: 700;
+  padding: 0px 15px;
+}
+.each-slide-child .Slidedetails {
+  display: block;
+  width: 100%;
+  color: $tertiary-color;
+  padding: 0px 15px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.each-slide-child button {
+  margin: 35px 15px;
+  padding: 10px 60px;
+  font-size: 20px;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 600;
+}
+
+.aboutContent {
+  color: rgb(152, 152, 152);
+  font-size: 19px;
+  padding-top: 30px;
+}
+
+.each-slide2 > div {
+  background-size: cover;
+  height: 50vh;
+  border-radius: 20px;
+}
+
+.mediumIcon {
+  margin-left: 5px;
+  font-weight: 700;
+  font-size: 16px !important;
+  vertical-align: middle;
+}
+.mediumIcon::after {
+  border: 1px solid white;
+  height: 26px;
+  width: 26px;
+  display: inline-block;
+  position: absolute;
+  margin-left: -21px;
+  border-radius: 100%;
+  content: "";
+}
+/* FOOTER */
+
+/* Small screens (e.g., mobile phones) */
+@media (max-width: 480px) {
+  .react-slideshow-container .nav {
+    display: none;
+  }
+  .each-slide > div {
+    background-size: cover;
+    height: 80vh;
+  }
+
+  .each-slide-child .Slidetop {
+    font-weight: 700;
+    font-size: 20px;
+  }
+  .each-slide-child .Slidetitle {
+    font-size: 45px;
+    line-height: 55px;
+  }
+  .ea-slide-child .Slidedetails {
+    font-size: 15px;
+  }
+
+  .each-slide2 > div {
+    height: 30vh;
+  }
+}
+/* Medium screens (e.g., tablets) */
+@media (min-width: 480px) and (max-width: 779px) {
+  .each-slide2 > div {
+    height: 30vh;
+  }
+  .react-slideshow-container .nav {
+    display: none;
+  }
+  .each-slide > div {
+    background-size: cover;
+    height: 80vh;
+  }
+
+  .each-slide-child .Slidetop {
+    padding: 10px 20px;
+    font-weight: 700;
+    font-size: 20px;
+  }
+
+  .each-slide-child .Slidetitle {
+    font-size: 55px;
+    line-height: 65px;
+  }
+  .each-slide-child .Slidedetails {
+    font-size: 20px;
+  }
+
+  .footer .container-fluid {
+    padding-left: 10px;
+  }
+}
+@media (min-width: 780px) and (max-width: 1093px) {
+  .each-slide > div {
+    background-size: cover;
+    height: 70vh;
+  }
+
+  .each-slide-child .Slidetop {
+    padding: 10px 20px;
+    font-weight: 700;
+    font-size: 20px;
+  }
+
+  .each-slide-child .Slidetitle {
+    font-size: 50px;
+  }
+  .each-slide-child .Slidedetails {
+    font-size: 20px;
+  }
+}
+/* Large screens (e.g., desktops) */
+@media (min-width: 1093px) {
+  .each-slide > div {
+    background-size: cover;
+    height: 99vh;
+  }
+  .each-slide-child .Slidetop {
+    padding: 10px 20px;
+    font-weight: 700;
+    font-size: 25px;
+    padding-left: 100px;
+  }
+
+  .each-slide-child .Slidetitle {
+    font-size: 80px;
+
+    padding-left: 100px;
+    line-height: 90px;
+  }
+  .each-slide-child .Slidedetails {
+    padding-left: 100px;
+    font-size: 25px;
+  }
+  .each-slide-child button {
+    margin-left: 100px;
+  }
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.location {
+  background-color: #061117a4 !important; /*#001119; */
+}
+
+.infoCard:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+.bgimg {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  transition: transform 0.2s ease-in-out;
+  border-radius: 10px;
+}
+
+.bgimg:hover {
+  transform: scale(0.96);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  border: 3px solid$primary-color;
+  border-radius: 10px;
+}
